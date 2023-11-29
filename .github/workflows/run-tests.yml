@@ -20,6 +20,7 @@ jobs:
 
       - name: Run Tests
         run: npm run test
+
   setup-database:
     name: Setup Database
     runs-on: ubuntu-latest
